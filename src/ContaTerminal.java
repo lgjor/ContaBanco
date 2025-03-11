@@ -9,8 +9,19 @@ public class ContaTerminal {
      * @param args Os argumentos da linha de comando (não utilizados neste aplicativo).
      * @throws Exception Se ocorrer um erro durante a leitura dos dados da conta.
      */
-    public static void main(String[] args) throws Exception {
+    /**
+     * Construtor padrão da classe ContaTerminal.
+     * Inicializa uma nova instância da classe.
+     */
+    public Conta criarConta() {
+        // Inicializações padrão, se necessário.
         Conta conta = new Conta();       
+        return conta;
+    }
+
+     public static void main(String[] args) throws Exception {
+        ContaTerminal contaTerminal = new ContaTerminal();
+        Conta conta = contaTerminal.criarConta();
         conta.LeDadosDaConta();
         conta.imprimirConta(conta);
     }

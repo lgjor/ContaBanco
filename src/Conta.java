@@ -57,7 +57,7 @@ public class Conta {
                     System.out.println("Número de agência inválido. Deve estar entre 1 e 9999.");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Entrada inválida. Digite um número inteiro.");
+                System.out.println("Entrada inválida. Digite um número inteiro entre 1 e 9999..");
             }
         } while (!agenciaValida);
         return -1; // Nunca deve chegar aqui, mas necessário para compilação
@@ -75,14 +75,14 @@ public class Conta {
             String contaInput = scanner.next();
             try {
                 numeroDaConta = Integer.parseInt(contaInput);
-                if (validarAgencia(agencia)) {
+                if (validarConta(numeroDaConta)) {
                     contaValida = true;
                     return numeroDaConta;
                 } else {
-                    System.out.println("Número de agência inválido. Deve estar entre 1 e 999999.");
+                    System.out.println("Número de conta inválido. Deve estar entre 1 e 999999.");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Entrada inválida. Digite um número inteiro.");
+                System.out.println("Entrada inválida. Digite um número inteiro entre 1 e 999999.");
             }
         } while (!contaValida);
         return -1; // Nunca deve chegar aqui, mas necessário para compilação

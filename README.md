@@ -2,7 +2,7 @@
 
 Repositório do desafio:[https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe]
 
-Descrição: Criar o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+Descrição: Criar o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo.
 
 Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.
 
@@ -22,7 +22,7 @@ Revise sobre regras de declaração de variáveis.
 Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
 
 * Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)* 
+* Usuário: 1021 *(depois ENTER para o próximo campo)*
 
 ## Revise sobre concatenação e classe String com método concat
 

@@ -1,6 +1,6 @@
 # Desafio ContaBanco da Trilha Java Básico DIO
 
-Repositório do desafio:[https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe]
+[Repositório do desafio](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
 Descrição: Criar o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo.
 
